@@ -1,0 +1,23 @@
+<?php
+$i = 1;
+echo "等しいかどうか\n";
+var_dump($i === 1);
+var_dump($i === 2);
+echo "等しくないかどうか\n";
+var_dump($i !== 1);
+var_dump($i !== 2);
+$s = 'abc';
+echo "等しいかどうか（文字列\n";
+var_dump($s === 'abc');
+var_dump($s === 'ABC');
+var_dump($s === 'a');
+echo "== と === の確認その1\n";
+var_dump($i == 1);
+var_dump($i === 1);
+echo "== と === の確認その1\n";
+var_dump($i == '1');
+var_dump($i === '1');
+echo "2a問題の確認\n";
+$i = 2;
+var_dump($i == '2a');
+var_dump($i === '2a');
